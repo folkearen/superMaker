@@ -4,17 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./movile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Super ⚙️ Maker</title>
 </head>
 <body>
     <header>
-        <div class="banner-descuento">
-            <p></p>
+        <div class="banner-descuento descuento-sup">
+            <p>20% de descuento en todos los productos</p>
         </div>
         <div class="banner-principal">
-            <img src="" alt="logo" class="logo">
-            <h1>Super Maker</h1>
+            <div class="name-shop">
+            <img src="./img/logo.png" alt="logo" class="logo">
+            <p>Super Maker</p>
+        </div>
+            <img src="./img/burger-menu-icon-12.jpg" alt="menu" class="menu-button">
+        </div>
+        <div class="banner-descuento descuento-inf">
+            <p>20% de descuento en todos los productos</p>
         </div>
         <nav>
             <ul>
@@ -32,18 +41,38 @@
                 <div class="form-container">
                     <div class="left-form">
                         <label for="name">*Nombre</label>
-                        <input type="text" id="name" name="name">
+                        <div class="input-container">
+                            <input type="text" id="name" name="name" placeholder="Nombre">
+                        </div>
                         <label for="date">Fecha</label>
+                        <div class="input-container">
                         <input type="date" id="date" name="date">
+                        </div>
                         <textarea name="description" id="" cols="30" rows="10" placeholder="Descripción"></textarea>
-
                     </div>
                     <div class="right-form">
-
+                        <label for="especie">Especie</label>
+                        <div class="-">
+                            <input type="text" name="especie" inputmode="especie">
+                        </div>
+                        <label for="foto">Agregar foto</label>
+                        <input type="file" accept=".jpg , .png , .svg">
+                        <fieldset>
+                            <legend>Poderes</legend>
+                            <input type="checkbox" name="volar" value="volar" id="volar"> <label for="volar">Volar</label>
+                            <input type="checkbox" name="supint" value="supint" id="supint"> <label for="supint">Súper inteligencia</label>
+                            <input type="checkbox" name="vrl" value="vrl" id="vrl"> <label for="vrl">Vista de rayo láser</label>
+                            <input type="checkbox" name="billgor" value="billgor" id="billgor"> <label for="billgor">Billetera Gorda</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Tipo de personaje</legend>
+                            <input type="radio" name="pers" value="hero" id="hero"><label for="hero"> Héroe / Heroina</label>
+                            <input type="radio" name="pers" name="villain" value="villain" id="villain"> <label for="villain">Villano / Villana</label>
+                        </fieldset>
                     </div> 
                 </div>
-                <button type="submit">Añadir</button>
-            </form>
+                <button type="submit">Añadir</button>9
+            </form>0
         </div>
     </main>
     <footer>

@@ -1,0 +1,93 @@
+:root {
+     --blue-page: #00669F;
+    --green-page: #1CD1B0;
+    --grey-dark-page: #001D2D;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%
+}
+.banner-descuento {
+    background-color: var(--green-page);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 100vw;
+}
+.descuento-sup {
+    display: none;
+}
+.banner-principal {
+    align-items: center;
+    background-color: var(--blue-page);
+    color: #ffffff;
+    display: flex;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    justify-content: space-between;
+    padding: 5px;
+    width: 100vw;
+}
+.logo {
+    height: 4.5rem;
+    margin-right: 8px;
+    width: 5.5rem;
+}
+.name-shop {
+    align-items: center;
+    display: flex;
+}
+.menu-button {
+    height: 35px;
+    width: 35px;
+}
+.descuento-inf {
+    text-align: center;
+}
+nav {
+    background-color: var(--grey-dark-page);
+}
+nav ul {
+    display: none;
+}
+.container-maker {
+    align-items: center;
+    background-color: var(--blue-page);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.form-container {
+    width: 930%;
+}
+.left-form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 6px;
+}
+.input-container {
+  background-color: #ffffff;
+}
+input::placeholder {
+    color: lightslategray;
+}
+
+.right-form {
+    display: flex;
+    flex-direction: column;
+}
