@@ -63,6 +63,19 @@ nav ul {
     display: flex;
     flex-direction: column;
 }
+.title-form {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+.subtitle-form {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+}
 form {
     align-items: center;
     display: flex;
@@ -71,7 +84,7 @@ form {
     width: 100%;
 }
 .form-container {
-    width: 930%;
+    width: 90%;
 }
 .left-form {
     display: flex;
@@ -82,12 +95,26 @@ label {
 }
 .input-container {
   background-color: #ffffff;
+  border-radius: 8px ;
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  height: 30px;
+}
+input {
+    border: none;
+    margin-left: 12px;
+    width: 90%;
 }
 input::placeholder {
     color: lightslategray;
 }
-
 .right-form {
     display: flex;
     flex-direction: column;
+}
+
+fieldset {
+    display: flex;
+    align-items: center;
 }
