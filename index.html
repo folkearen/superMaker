@@ -35,62 +35,65 @@
     </header>
     <main>
         <div class="container-maker">
-            <p>¡Añade tu Súper!</p>
-            <p>Agrega tu personaje favorito compltando las opciones.</p>
+            <p class="title-form">¡Añade tu Súper!</p>
+            <p class="subtitle-form">Agrega tu personaje favorito compltando las opciones.</p>
             <form action="">
                 <div class="form-container">
                     <div class="left-form">
                         <label for="name">*Nombre</label>
                         <div class="input-container">
-                            <input type="text" id="name" name="name" placeholder="Nombre">
+                            <input type="text" id="name" name="name" placeholder="Nombre" class="inp">
                         </div>
                         <label for="date">Fecha</label>
                         <div class="input-container">
-                        <input type="date" id="date" name="date">
+                        <input type="date" id="date" name="date" class="inp cal">
                         </div>
+                        <div class="text-box">
                         <textarea name="description" id="" cols="30" rows="10" placeholder="Descripción"></textarea>
+                        </div>
                     </div>
                     <div class="right-form">
                         <label for="especie">Especie</label>
-                        <div class="-">
-                            <input type="text" name="especie" inputmode="especie">
+                        <div class="input-container">
+                            <input type="text" name="especie" id="especie" class="inp" placeholder="Especie"> 
+                            <img src="./img/Line 1.png" alt="">
                         </div>
                         <label for="foto">Agregar foto</label>
-                        <input type="file" accept=".jpg , .png , .svg">
+                        <input type="file" accept=".jpg , .png , .svg" class="up-img">
                         <fieldset>
                             <legend>Poderes</legend>
                             <div class="multi-option">
-                                <input type="checkbox" name="volar" value="volar" id="volar">       
+                                <input type="checkbox" name="volar" value="volar" id="volar" class="check-style">       
                                 <label for="volar">Volar</label>
                             </div>
                             <div class="multi-option">
-                                <input type="checkbox" name="supint" value="supint" id="supint">        
+                                <input type="checkbox" name="supint" value="supint" id="supint" class="check-style">        
                                 <label for="supint">Súper inteligencia</label>
                             </div>
                             <div class="multi-option">
-                                <input type="checkbox" name="vrl" value="vrl" id="vrl"> 
+                                <input type="checkbox" name="vrl" value="vrl" id="vrl" class="check-style"> 
                                 <label for="vrl">Vista de rayo láser</label>
                             </div>
                             <div class="multi-option">
-                                <input type="checkbox" name="billgor" value="billgor" id="billgor">     
+                                <input type="checkbox" name="billgor" value="billgor" id="billgor" class="check-style">     
                                 <label for="billgor">Billetera Gorda</label>
                             </div>
                         </fieldset>
                         <fieldset>
                             <legend>Tipo de personaje</legend>
                             <div class="multi-option">
-                                <input type="radio" name="pers" value="hero" id="hero">
+                                <input type="radio" name="pers" value="hero" id="hero" class="radio-style">
                                 <label for="hero"> Héroe / Heroina</label>    
                             </div>
                             <div class="multi-option">
-                                <input type="radio" name="pers" name="villain" value="villain" id="villain"> 
+                                <input type="radio" name="pers" name="villain" value="villain" id="villain" class="radio-style"> 
                                 <label for="villain">Villano / Villana</label>
                             </div>
                         </fieldset>
                     </div> 
                 </div>
-                <button type="submit">Añadir</button>9
-            </form>0
+                <button type="submit">Añadir</button>
+            </form>
         </div>
     </main>
     <footer>
