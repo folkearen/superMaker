@@ -1,0 +1,142 @@
+:root {
+    --blue-page: #00669F;
+   --green-page: #1CD1B0;
+   --grey-dark-page: #001D2D;
+}
+html {
+    font-size: 100%;
+}
+.descuento-sup {
+    display: block;
+}
+.descuento-sup p {
+    margin-left: 20px;
+}
+.descuento-inf {
+    display: none;
+}
+.menu-button {
+    display: none;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+}
+nav a {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-right: 8px;
+    text-decoration: none;
+}
+main {
+    padding: 30px 200px;
+}
+.container-maker {
+    align-items: center;
+    background-color:var(--blue-page);
+    border-radius: 40px;
+    color: #ffffff;
+    padding: 0 40px;
+}
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+   
+}
+.left-form {
+    width: 45%;
+}
+.right-form {
+    width: 45%;
+}
+.input-container {
+    background-color: #ffffff;
+}
+.inp {
+    background-color: #ffffff;
+    border: none;
+    color: var(--blue-page);
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-left: 12px;
+    margin-right: 8px;
+    height: 90%;
+    width: 85%;
+}
+.cal {
+    background-color: #ffffff;
+    color: #888888;   
+    font-size: 1.2rem;
+}
+input::placeholder {
+    background-color: #ffffff;
+    color: #888888;
+    font-size: 1.2rem;
+}
+input:focus {
+    background-color: #ffffff;
+    color: var(--blue-page);
+}
+.text-box {
+    background-color: #ffffff;
+}
+textarea {
+    background-color: #ffffff;
+    color: var(--blue-page);
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+textarea::placeholder {
+    color:#888888;
+    font-size: 1.2rem;
+}
+.under {
+    height: 18px;
+    width: 20px;
+}
+.under-black {
+    display: inline;
+}
+.under-white {
+    display: none;
+}
+.up-img {
+    font-size: 1rem;
+    padding: 1rem 0;
+    margin-bottom: 10px;
+}
+.line {
+    border-top: 1px solid #ffffff;
+}
+.multi-option {
+    align-items: center;
+    display: flex;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 4px;
+    width: 90%;
+}
+.check-style {
+    height: 24px;
+    width: 24px; 
+}
+.check-style:checked {
+    background-color: var(--green-page);
+}
+.radio-style {
+    height: 24px;
+    width: 24px; 
+}
+.radio-style:checked {
+    background-color:var(--green-page);
+}
+button {
+    height: 80px;
+}
