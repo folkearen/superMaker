@@ -105,17 +105,25 @@ form {
   margin-bottom: 18px;
 }
 .inp {
+    background-color: var(--blue-page);
     border: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.4rem;
     margin-left: 12px;
     margin-right: 8px;
+    height: 85%;
     width: 85%;
 }
 .cal {
     background-color:var(--blue-page);
     color: #ffffff;
-    
 }
 input::placeholder {
+    background-color: var(--blue-page);
+    color: #ffffff;  
+}
+input:focus {
     background-color: var(--blue-page);
     color: #ffffff;
 }
@@ -131,11 +139,25 @@ input::placeholder {
 }
 textarea {
     background-color: var(--blue-page);
+    color: #ffffff;
     border: none;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2rem;
     width:100%;
 }
 textarea::placeholder {
     color:#ffffff;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+.under {
+    height: 18px;
+    width: 20px;
+}
+.under-black {
+    display: none;
 }
 .up-img {
     margin-bottom: 18px;
@@ -151,7 +173,6 @@ fieldset {
     margin-top: 16px;
     width: 80%;
 }
-
 .multi-option {
     align-items: center;
     display: flex;
@@ -161,7 +182,6 @@ fieldset {
     margin-bottom: 4px;
     width: 90%;
 }
-
 legend {
     margin-bottom: 8px;
     font-weight: 400;
