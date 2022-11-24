@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./movile.css">
+    <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 1050px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -36,29 +37,29 @@
     <main>
         <div class="container-maker">
             <p class="title-form">¡Añade tu Súper!</p>
-            <p class="subtitle-form">Agrega tu personaje favorito compltando las opciones.</p>
+            <p class="subtitle-form">Agrega tu personaje favorito completando las opciones.</p>
             <form action="">
                 <div class="form-container">
                     <div class="left-form">
-                        <label for="name">*Nombre</label>
+                        <label class="lab"  for="name">*Nombre</label>
                         <div class="input-container">
                             <input type="text" id="name" name="name" placeholder="Nombre" class="inp">
                         </div>
-                        <label for="date">Fecha</label>
+                        <label class="lab" for="date">Fecha</label>
                         <div class="input-container">
                         <input type="date" id="date" name="date" class="inp cal">
                         </div>
                         <div class="text-box">
-                        <textarea name="description" id="" cols="30" rows="10" placeholder="Descripción"></textarea>
+                        <textarea name="description" id="" cols="30" rows="18" placeholder="Descripción"></textarea>
                         </div>
                     </div>
                     <div class="right-form">
-                        <label for="especie">Especie</label>
+                        <label class="lab"  for="especie">Especie</label>
                         <div class="input-container">
                             <input type="text" name="especie" id="especie" class="inp" placeholder="Especie"> 
-                            <img src="./img/Line 1.png" alt="">
+                            <img src="./img/Vector 1.png" alt="">
                         </div>
-                        <label for="foto">Agregar foto</label>
+                        <label class="lab" for="foto">Agregar foto</label>
                         <input type="file" accept=".jpg , .png , .svg" class="up-img">
                         <fieldset>
                             <legend>Poderes</legend>
@@ -79,6 +80,7 @@
                                 <label for="billgor">Billetera Gorda</label>
                             </div>
                         </fieldset>
+                        <div class="line"></div>
                         <fieldset>
                             <legend>Tipo de personaje</legend>
                             <div class="multi-option">
